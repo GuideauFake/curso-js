@@ -8,9 +8,11 @@
 <body>
     
     <script>
+        /*n1.toLocaleString('pt-BR', {style:'currency', currency:'BRL'})*/
         var nome = window.prompt('Qual o seu nome?')
         document.write(`Ola, ${nome}, seu nome tem ${nome.length} letras <br>`)
-        document.write( `Seu nome em maiusculo é ${nome.toUpperCase()}`)
+        document.write( `Seu nome em maiusculo é ${nome.toUpperCase()} <br>`)
+        document.write(`seu nome me minuscula é ${nome.toLowerCase()}`)""
     </script>
 </body>
 </html>
